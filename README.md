@@ -35,4 +35,4 @@ Responsive designs are to ensure that webpages will work not only on laptops/des
 * Must properly utilize Bootstrap components and grid system.
 
 # Website Link
-https://jwright323.github.io/Responsive_Portfolio/
+https://jwright323.github.io/Responsive_Portfolio/index.html
