@@ -13,9 +13,9 @@ Responsive designs are to ensure that webpages will work not only on laptops/des
 # Acceptance Criteria
 * Create the following files files: index.html, portfolio.html and contact.html.
 * Using Bootstrap, develop your portfolio site with the following items:
-* A navbar
-* A responsive layout
-* Responsive images
+  * A navbar
+  * A responsive layout
+  * Responsive images
 * Inside of the 'title' tag, insert descriptive content, like the name or purpose of the site.
 * Heading elements should appear with the largest (example 'h1') at the top of the file and the lower headings should be below in the html page.
 * Adding comments to the css file.
