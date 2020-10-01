@@ -29,6 +29,6 @@ Responsive designs are to ensure that webpages will work not only on laptops/des
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 * All links must work.
 * Must use semantic html.
-* Each page must have valid and correct HTML. (use a validation service)
+* Each page must have valid and correct HTML (use a validation service).
 * Must contain your personalized information. 
 * Must properly utilize Bootstrap components and grid system.
