@@ -7,6 +7,7 @@ Responsive designs are to ensure that webpages will work not only on laptops/des
 # Tools Used to Complete Task
 * HTML
 * CSS
+* Bootstrap
 * Visual Studio Code
 * Google Fu!
 
