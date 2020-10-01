@@ -1,1 +1,4 @@
-# Responsive_Portfolio
+# Responsive Portfolio of Jamal Wright
+
+# Description
+
