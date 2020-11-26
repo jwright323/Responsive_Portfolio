@@ -1,49 +1,86 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jamal's Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Michael Crowder Portfolio</title>  
 </head>
 
-<body>
-    <!--Nav Bar-->
+<body class="d-flex flex-column h-100">
+
+    <!-- Navigation Bar at the top of the page -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h4 class="myname"><strong>Jamal Wright</strong></h4>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jamal Wright</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto text-right">
+                    <a class="nav-link" href="index.html">About Me</a>
+                    <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+    <!-- Main code for displaying Portfolio Pictures -->
+    <main class="container shadow-sm p-3 mb-5 mt-5 bg-white">
+
+        <!--Header -->
+        <h1>Portfolio</h1>
+        <hr class="my-4">
+
+        <!-- Logic for displaying the images on the page -->
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <figure class="figure">
+                    <img src="images/Duke vs. UNC.jpg" class="img-thumbnail img-fluid img-rounded float m-2"
+                        alt="The Greatest Rivalry in College Basketball">
+                    <figcaption class="figure-caption text-center image-caption mt-5">My favorite color just so happens to be my team's greatest rival.</figcaption>
+                </figure>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <figure class="figure">
+                    <img src="images/Its The Roc!.jpg" class="img-thumbnail img-fluid img-rounded float m-2"
+                        alt="Hov">
+                    <figcaption class="figure-caption text-center image-caption mt-5">The Best to Ever Do It</figcaption>
+                </figure>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <figure class="figure">
+                    <img src="images/Ray Charles Plaza.jpg" class="img-thumbnail img-fluid img-rounded float m-2" alt="Ray Charles Plaza in Downtown Albany"> 
+                    <figcaption class="figure-caption text-center image-caption mt-5">Albany...GEEOORRGGIAAA</figcaption>
+                </figure>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <figure class="figure">
+                    <img src="images/Vincent and Mia.png" class="img-thumbnail img-fluid img-rounded float m-2" alt="Twist Contest">
+                    <figcaption class="figure-caption text-center image-caption mt-5">You Never Can Tell</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="bar"></div>
+        <div class="container">
+            <span class="text-muted">&copy; 2020</span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+</html>
