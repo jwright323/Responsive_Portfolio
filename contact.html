@@ -3,65 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact: Jamal Wright</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Michael Crowder Contact</title>
 </head>
 
-<!--Top Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <h4 class="myname"><strong>Jamal Wright</strong></h4>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<body class="d-flex flex-column h-100">
 
-<!--Contact me form-->
-<div class="portfoliowrapper">
-    <main class="page contact-page">
-      <section class="portfolio-block contact">
+    <!-- Navigation Bar at the top of the page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <div class="otherspacer"></div>
-            <div class="heading">
-              <h2>Contact me</h2>
+            <a class="navbar-brand" href="index.html">Jamal Wright</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto text-right">
+                    <a class="nav-link" href="index.html">About Me</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </div>
             </div>
-          <form>
-            <div class="form-group"><label for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
-            <div class="form-group"><label for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
-            <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email"></div>
-            <div class="form-group"><label for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Submit Form</button></div>
-            <div class="otherspacer"></div>
-          </form>
-        </div>  
-      </section>     
+        </div>
+    </nav>
+
+    <!-- Main code for displaying the contact me form -->
+    <main class="container container-fluid shadow-sm p-3 mb-5 mt-5 bg-white">
+        <div class="card-body">
+            <div class="col-xl-6 col-md-6 col-sm-6">
+                <h1 class="card-title">Contact</h1>
+                <hr class="my-4" />
+            </div>
+            <div class="container-fluid">
+                <div class="row my-row">
+                    <div class="col-xl-12 col-md-12 col-sm-12" id="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="exampleFormControlInput"
+                                    placeholder="John Smith"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="example@gmail.com"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Phone</label>
+                                <input
+                                    type="Phone"
+                                    class="form-control"
+                                    id="1-800-000-0000"
+                                    placeholder="1-800-000-000"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea2">Message</label>
+                                <textarea
+                                    class="form-control"
+                                    id="exampleFormControlTextarea2"
+                                    rows="3"
+                                ></textarea>
+                            </div>
+                        </form>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    </div>
 
-<!--Footer-->
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="bar"></div>
+        <div class="container">
+            <span class="text-muted">&copy; 2020</span>
+        </div>
+    </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
