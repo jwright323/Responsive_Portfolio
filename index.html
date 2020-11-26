@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jamal's Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Michael Crowder About Me</title>  
 </head>
 
-<body>
-    <!--Nav Bar, including collapsing option for small screens-->
+<body class="d-flex flex-column h-100">
+
+    <!-- Navigation Bar at the top of the page -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h4 class="myname"><strong>Jamal Wright</strong></h4>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="myNavBar">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-        </ul>
-
-      <div class ="emptySpace"></div>
-      <div class ="emptySpace"></div>
-
-      <section>
-        <div class="about-me">
-        <div class="container-fluid">
-            <div class="row align-items-center content-row">
-              <div class="col-lg-6 wrap-block">
-                <h2>About Me</h2>
-                <h4 class="aboutmesection">Mr. Wright currently work at the MyTech Lounge in Buckhead. He holds a Bachelor's Degree in Office Administration & Technology from Valdosta State University and is actively pursuing certification in Full Stack Web Development at Georgia Institite of Technology.</h4>
-              </div>
-              <div class="col-lg-6 photo-split img-fluid">
-                  <img src="assets/images/mal.jpeg" alt="Mal at the High" >
-              </div>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Michael Crowder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto text-right">
+                    <a class="nav-link active" href="index.html">About me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
         </div>
-        </div>    
-    </section>
+    </nav>
 
-    <div class ="emptySpace"></div>
-    <div class ="emptySpace"></div>
+    <!-- Main code for displaying About Me -->
+    <main class="container container-fluid d-flex justify-content-center align-items-center shadow-sm p-3 mb-5 mt-5 bg-white">
+        <div class="row">
+            <div class="row px-4">
+                <div class="col-md-12">
+                    <h1>About Me</h1>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="row px-4">
+                <div class="col-md-12">
+                    <p>
+                        <img  class="img-thumbnail img-fluid img-rounded float-left m-2"  src="images/" alt="Mal at the High">
+                        Age: 30
+                        Hometown: Albany, GA
+                        Occupation: MyTech Lounge Associate
+                        Hobbies: Movies, Gaming, Sports, Music, Technology
+                        Favorite Color: Blue 
+                    </p>
+                </div>
+            </div>
+    </main>
 
+    <footer class="footer mt-auto py-3">
+        <div class="bar"></div>
+        <div class="container">
+            <span class="text-muted">&copy; 2020</span>
+        </div>
+    </footer>
 
-
-      
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+</html>
